@@ -4,7 +4,7 @@ using namespace std;
 
 int max_path(int n,int m,vector<vector<int>> &arr)
 {
-    if(n==0 || m==0)
+    if(n==0 && m==0)
     {
         return 1;
     }
